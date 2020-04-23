@@ -85,6 +85,7 @@ call s:hi("ALEErrorLine",        s:cterm.black,       s:cterm.none,          "IT
 call s:hi("ALEWarningLine",      s:cterm.black,       s:cterm.none,          "ITALIC")
 
 call s:hi("EndOfBuffer",    s:cterm.background,   "",                 "")
+call s:hi("SpecialKey",     s:cterm.black,        "",                 "")
 call s:hi("ColorColumn",    s:cterm.none,         s:cterm.black,      "")
 call s:hi("Cursor",         s:cterm.foreground,   "",                 "")
 call s:hi("CursorColumn",   s:cterm.none,         s:cterm.none,       "")
