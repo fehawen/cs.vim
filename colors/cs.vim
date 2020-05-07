@@ -69,7 +69,7 @@ call s:hi("User8",              s:cterm.black,         s:cterm.background,    "B
 
 " Statusline colors
 " Use with e.g. fehawen/ls.vim
-call s:hi("StatusLine",         s:cterm.background,    s:cterm.background,    "NONE")
+call s:hi("StatusLine",         s:cterm.yellow,        s:cterm.background,    "NONE")
 call s:hi("StatusLineNC",       s:cterm.black,         s:cterm.background,    "NONE")
 call s:hi("StatusLineTerm",     s:cterm.background,    s:cterm.background,    "NONE")
 call s:hi("StatusLineTemrNC",   s:cterm.black,         s:cterm.background,    "NONE")
@@ -134,7 +134,7 @@ call s:hi("Identifier",     s:cterm.blue,         "",                 "")
 call s:hi("Operator",       s:cterm.cyan,         "",                 "")
 call s:hi("PreProc",        s:cterm.blue,         "",                 "")
 call s:hi("Search",         s:cterm.background,   s:cterm.yellow,     "")
-call s:hi("InSearch",       s:cterm.background,   s:cterm.yellow,     "")
+call s:hi("IncSearch",      s:cterm.background,   s:cterm.yellow,     "")
 call s:hi("Todo",           s:cterm.background,   "",                 "")
 call s:hi("Special",        s:cterm.magenta,      "",                 "")
 
