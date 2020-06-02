@@ -58,14 +58,9 @@ if has("nvim")
 endif
 
 " Editor colors
-call s:hi("User1",              s:cterm.background,    s:cterm.background,    "")
-call s:hi("User2",              s:cterm.red,           s:cterm.background,    "")
-call s:hi("User3",              s:cterm.green,         s:cterm.background,    "")
-call s:hi("User4",              s:cterm.yellow,        s:cterm.background,    "")
-call s:hi("User5",              s:cterm.blue,          s:cterm.background,    "")
-call s:hi("User6",              s:cterm.magenta,       s:cterm.background,    "")
-call s:hi("User7",              s:cterm.background,    s:cterm.cyan,          "")
-call s:hi("User8",              s:cterm.black,         s:cterm.background,    "")
+call s:hi("User1",              s:cterm.background,    s:cterm.green,         "")
+call s:hi("User2",              s:cterm.green,         s:cterm.background,    "")
+call s:hi("User3",              s:cterm.background,    s:cterm.background,    "")
 
 " Statusline colors
 " Use with e.g. fehawen/ls.vim
