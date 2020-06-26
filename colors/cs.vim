@@ -58,9 +58,11 @@ if has("nvim")
 endif
 
 " Editor colors
-call s:hi("User1",              s:cterm.background,    s:cterm.foreground,    "")
-call s:hi("User2",              s:cterm.foreground,    s:cterm.background,    "")
-call s:hi("User3",              s:cterm.background,    s:cterm.background,    "")
+call s:hi("User1",              s:cterm.background,    s:cterm.yellow,        "")
+call s:hi("User2",              s:cterm.yellow,        s:cterm.background,    "")
+call s:hi("User3",              s:cterm.background,    s:cterm.black,         "")
+call s:hi("User4",              s:cterm.black,         s:cterm.background,    "")
+call s:hi("User5",              s:cterm.background,    s:cterm.background,    "")
 
 " Statusline colors
 " Use with e.g. fehawen/ls.vim
@@ -236,7 +238,7 @@ call s:hi("shConditional", s:cterm.cyan,       "", "")
 " NERDTree
 call s:hi("NERDTreeOpenable",   s:cterm.black,         s:cterm.none,          "")
 call s:hi("NERDTreeClosable",   s:cterm.black,         s:cterm.none,          "")
-call s:hi("NERDTreeCWD",        s:cterm.blue,          s:cterm.none,          "")
+call s:hi("NERDTreeCWD",        s:cterm.yellow,        s:cterm.none,          "")
 call s:hi("NERDTreeDir",        s:cterm.black,         s:cterm.none,          "BOLD")
 call s:hi("NERDTreeDirSlash",   s:cterm.background,    s:cterm.none,          "")
 call s:hi("NERDTreeExecFile",   s:cterm.blue,          s:cterm.none,          "")
