@@ -83,7 +83,7 @@ call s:hi("ALEWarningLine",      s:cterm.black,       s:cterm.none,          "")
 
 call s:hi("EndOfBuffer",    s:cterm.background,   "",                 "")
 call s:hi("SpecialKey",     s:cterm.black,        "",                 "")
-call s:hi("ColorColumn",    s:cterm.none,         s:cterm.black,      "")
+call s:hi("ColorColumn",    s:cterm.foreground,   s:cterm.yellow,     "")
 call s:hi("Cursor",         s:cterm.foreground,   "",                 "")
 call s:hi("CursorColumn",   s:cterm.none,         s:cterm.none,       "")
 call s:hi("SignColumn",     s:cterm.red,          s:cterm.none,       "")
@@ -284,3 +284,8 @@ call NERDTreeHighlightFile("svg",              s:cterm.foreground,  s:cterm.none
 " Set es6 unused import plugin colors
 let g:es6_imports_cterm_fg_color=s:cterm(s:cterm.black)
 let g:es6_imports_cterm_bg_color=s:cterm(s:cterm.none)
+
+" Make the 81st column stand out
+" Damian Conway, More Instantly Better Vim - OSCON 2013
+" https://www.youtube.com/watch?v=aHm36-na4-4
+call matchadd('ColorColumn', '\%81v', 100)
