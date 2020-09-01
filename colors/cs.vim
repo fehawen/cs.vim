@@ -141,6 +141,7 @@ call s:hi("javaScriptBraces",               s:cterm.cyan,        "", "")
 call s:hi("javaScriptNumber",               s:cterm.yellow,      "", "")
 call s:hi("javaScriptReserved",             s:cterm.blue,        "", "BOLD")
 call s:hi("javaScriptLabel",                s:cterm.magenta,     "", "")
+call s:hi("javaScriptBoolean",              s:cterm.yellow,      "", "")
 call s:hi("javaScriptCommentTodo",          s:cterm.black,       "", "BOLD")
 call s:hi("javaScriptStatement",            s:cterm.cyan,        "", "BOLD")
 
