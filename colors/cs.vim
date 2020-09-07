@@ -58,8 +58,8 @@ if has("nvim")
 endif
 
 " Editor colors
-call s:hi("User1",              s:cterm.background,    s:cterm.yellow,        "")
-call s:hi("User2",              s:cterm.yellow,        s:cterm.background,    "")
+call s:hi("User1",              s:cterm.background,    s:cterm.red,           "")
+call s:hi("User2",              s:cterm.red,           s:cterm.background,    "")
 call s:hi("User3",              s:cterm.background,    s:cterm.black,         "")
 call s:hi("User4",              s:cterm.black,         s:cterm.background,    "")
 call s:hi("User5",              s:cterm.background,    s:cterm.background,    "")
@@ -82,7 +82,7 @@ call s:hi("ALEErrorLine",        s:cterm.black,       s:cterm.none,          "")
 call s:hi("ALEWarningLine",      s:cterm.black,       s:cterm.none,          "")
 
 call s:hi("EndOfBuffer",    s:cterm.background,   "",                 "")
-call s:hi("SpecialKey",     s:cterm.black,        "",                 "")
+call s:hi("SpecialKey",     s:cterm.red,          "",                 "")
 call s:hi("ColorColumn",    s:cterm.foreground,   s:cterm.yellow,     "")
 call s:hi("Cursor",         s:cterm.foreground,   "",                 "")
 call s:hi("CursorColumn",   s:cterm.none,         s:cterm.none,       "")
