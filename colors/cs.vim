@@ -64,8 +64,8 @@ if has("nvim")
 endif
 
 " Editor colors
-call s:hi("User1",                             s:cterm.background,       s:cterm.yellow_dim,      "")
-call s:hi("User2",                             s:cterm.yellow_dim,       s:cterm.background,       "")
+call s:hi("User1",                             s:cterm.background,       s:cterm.white_dim,        "")
+call s:hi("User2",                             s:cterm.white_dim,        s:cterm.background,       "")
 call s:hi("User3",                             s:cterm.background,       s:cterm.black,            "")
 call s:hi("User4",                             s:cterm.black,            s:cterm.background,       "")
 call s:hi("User5",                             s:cterm.background,       s:cterm.background,       "")
