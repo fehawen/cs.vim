@@ -169,6 +169,7 @@ call s:hi("typescriptParens",                  s:cterm.cyan_bright,      "",    
 call s:hi("typescriptCall",                    s:cterm.white_dim,        "",                       "")
 call s:hi("typescriptDotAnnotation",           s:cterm.cyan_bright,      "",                       "")
 call s:hi("typescriptDotNotation",             s:cterm.cyan_bright,      "",                       "")
+call s:hi("typescriptDestructureVariable",     s:cterm.white_dim,        "",                       "")
 call s:hi("typescriptArrowFunc",               s:cterm.magenta_bright,   "",                       "")
 call s:hi("typescriptFuncType",                s:cterm.red_bright,       "",                       "")
 call s:hi("typescriptFuncCallArg",             s:cterm.white_dim,        "",                       "")
