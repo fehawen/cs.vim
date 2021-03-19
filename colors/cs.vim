@@ -226,8 +226,8 @@ call s:hi("jsxClosePunct",                     s:cterm.yellow_dim,       "",    
 call s:hi("jsxCloseString",                    s:cterm.yellow_dim,       "",                       "")
 call s:hi("jsxTagName",                        s:cterm.cyan_bright,      "",                       "")
 call s:hi("jsxComponentName",                  s:cterm.cyan_bright,      "",                       "BOLD")
-call s:hi("jsxAttrib",                         s:cterm.magenta_dim,      "",                       "")
-call s:hi("jsxElement",                        s:cterm.magenta_bright,   "",                       "")
+call s:hi("jsxAttrib",                         s:cterm.magenta_bright,   "",                       "ITALIC")
+call s:hi("jsxElement",                        s:cterm.blue_bright,      "",                       "")
 call s:hi("jsxString",                         s:cterm.green_dim,        "",                       "")
 call s:hi("jsxBraces",                         s:cterm.cyan_dim,         "",                       "")
 
